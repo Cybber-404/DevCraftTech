@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareerCraft Ghana Case Study — DevCraft Tech</title>
+<meta name="description" content="How DevCraft Tech designed and built CareerCraft Ghana, a career document SaaS for Ghanaian job seekers.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+
+<!-- ============================================================ 
+     HEADER / NAVIGATION
+============================================================ -->
+<header class="dc-header" id="dc-header">
+  <div class="dc-container dc-nav">
+
+    <a href="/index.html" class="dc-logo" aria-label="DevCraft Tech home">
+      <svg class="dc-logo-mark" viewBox="0 0 48 48" width="30" height="30" aria-hidden="true">
+        <path d="M18 12 L6 24 L18 36" fill="none" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 12 L42 24 L30 36" fill="none" stroke="#F97316" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="27" y1="8" x2="21" y2="40" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+      <span class="dc-logo-text">DevCraft<span class="dc-logo-accent">Tech</span></span>
+    </a>
+
+    <div class="dc-nav-actions">
+      <a href="/contact.html" class="dc-btn dc-btn--primary dc-nav-cta">Get in Touch</a>
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+  <!-- ============================================================
+       CASE STUDY HERO
+  ============================================================ -->
+  <section class="dc-case-hero">
+    <div class="dc-container">
+
+      <div class="dc-case-hero-top" data-reveal>
+        <a href="/projects.html" class="dc-case-back">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Back to Projects
+        </a>
+        <ul class="dc-tech-chips" aria-label="Technologies used">
+          <li class="dc-tech-chip">HTML &amp; CSS</li>
+          <li class="dc-tech-chip">JavaScript</li>
+          <li class="dc-tech-chip">Supabase</li>
+          <li class="dc-tech-chip">Paystack</li>
+        </ul>
+      </div>
+
+      <p class="dc-eyebrow" data-reveal>Career Services · UI Design</p>
+      <h1 class="dc-case-hero-title" data-reveal>CareerCraft Ghana</h1>
+      <p class="dc-case-hero-sub" data-reveal>
+        A career document SaaS for Ghanaian job seekers — designed first as a fully clickable prototype, then rebuilt on a secure, production-ready Supabase backend.
+      </p>
+
+      <div class="dc-case-hero-visual" data-reveal>
+        <div class="dc-browser-mock" style="--mock-accent:#0F766E; --mock-accent-2:#F59E0B;">
+          <div class="dc-browser-mock-bar">
+            <span class="dc-dot dc-dot--red"></span>
+            <span class="dc-dot dc-dot--yellow"></span>
+            <span class="dc-dot dc-dot--green"></span>
+            <span class="dc-browser-mock-url">careercraftgh.com</span>
+          </div>
+          <div class="dc-browser-mock-canvas">
+            <div aria-hidden="true">
+              <video preload="metadata" autoplay muted loop>
+                <source src="/videos/CareerCraft Ghana — Professional Career Documents Built For Ghanaian Success — Mozilla Firefox 2026-08-04 18-13-56.mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dc-case-overview-grid" data-reveal>
+        <div class="dc-case-overview-item">
+          <span class="dc-meta-chip-label">Industry</span><br>
+          <span class="dc-meta-chip-value">Career Services</span>
+        </div>
+        <div class="dc-case-overview-item">
+          <span class="dc-meta-chip-label">Timeline</span><br>
+          <span class="dc-meta-chip-value">Two-phase Build</span>
+        </div>
+        <div class="dc-case-overview-item">
+          <span class="dc-meta-chip-label">Role</span><br>
+          <span class="dc-meta-chip-value">Design + Full-stack</span>
+        </div>
+        <div class="dc-case-overview-item">
+          <span class="dc-meta-chip-label">Services</span><br>
+          <span class="dc-meta-chip-value">SaaS Platform</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OVERVIEW + CHALLENGE
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Overview</p>
+        <h2 class="dc-case-block-heading">Prove the flow before you build the backend</h2>
+        <p class="dc-case-block-text">
+          CareerCraft Ghana helps job seekers build professional CVs and career documents. Rather than building the full backend first, the project started as a complete, clickable front-end prototype — 18 pages deep — so the experience could be validated before any real data was on the line.
+        </p>
+      </div>
+
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Challenge</p>
+        <h2 class="dc-case-block-heading">Making the jump from prototype to production safely</h2>
+        <div class="dc-case-body-grid">
+          <p class="dc-case-block-text">
+            The prototype used fake data and simulated interactions by design. Migrating it to a real backend meant replacing every simulated flow — auth, payments, admin access — with the real thing, without losing the polish of the original design.
+          </p>
+          <p class="dc-case-block-text">
+            A closer look at the prototype also surfaced real risks before launch: password handling that only looked like hashing, an admin panel with no access gate, and a pricing settings form that silently failed to save.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESEARCH & PLANNING
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Research &amp; Planning</p>
+        <h2 class="dc-case-block-heading">Designing the system before the schema</h2>
+        <p class="dc-case-block-text">
+          A dedicated teal &amp; amber design system was built first, with shared CSS and JS modules so every one of the 18 pages stayed visually and behaviorally consistent — long before a single Supabase table existed.
+        </p>
+        <div class="dc-case-process-steps">
+          <div class="dc-case-process-step">
+            <span class="dc-case-process-num">01</span>
+            <h3 class="dc-case-process-title">Design System</h3>
+            <p class="dc-case-process-text">Established the teal &amp; amber palette and shared component patterns.</p>
+          </div>
+          <div class="dc-case-process-step">
+            <span class="dc-case-process-num">02</span>
+            <h3 class="dc-case-process-title">Prototype</h3>
+            <p class="dc-case-process-text">Built all 18 pages as a fully clickable experience with fake data.</p>
+          </div>
+          <div class="dc-case-process-step">
+            <span class="dc-case-process-num">03</span>
+            <h3 class="dc-case-process-title">Security Audit</h3>
+            <p class="dc-case-process-text">Flagged password handling, admin access, and a broken settings form.</p>
+          </div>
+          <div class="dc-case-process-step">
+            <span class="dc-case-process-num">04</span>
+            <h3 class="dc-case-process-title">Backend Migration</h3>
+            <p class="dc-case-process-text">Planned the full move to Supabase auth, database, and payments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DESIGN PROCESS
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Design Process</p>
+        <h2 class="dc-case-block-heading">Consistency across 18 pages</h2>
+        <p class="dc-case-block-text">
+          Shared CSS and JS modules kept the teal (<code>#0F766E</code>, <code>#14B8A6</code>) and amber (<code>#F59E0B</code>) design language consistent from onboarding through document editing to the pricing page, so the eventual backend swap would be invisible to users.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DEVELOPMENT
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Development</p>
+        <h2 class="dc-case-block-heading">A real backend, built to hold up</h2>
+        <div class="dc-case-body-grid">
+          <p class="dc-case-block-text">
+            Authentication was rewritten around Supabase's <code>auth.*</code> methods, and a proper async Postgres wrapper replaced the simulated data layer. Payments moved to Paystack's Inline.js, with a Supabase Edge Function handling server-side transaction verification.
+          </p>
+          <p class="dc-case-block-text">
+            The schema shipped with row-level security policies and security-definer admin RPCs, closing the gaps found during the audit — the encoded-not-hashed password, the ungated admin panel, and the broken pricing form were all fixed before launch.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TECHNOLOGIES USED
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Technologies Used</p>
+        <h2 class="dc-case-block-heading">From static prototype to secure SaaS</h2>
+        <ul class="dc-tech-chips" aria-label="Full technology list">
+          <li class="dc-tech-chip">HTML</li>
+          <li class="dc-tech-chip">CSS</li>
+          <li class="dc-tech-chip">JavaScript</li>
+          <li class="dc-tech-chip">Supabase</li>
+          <li class="dc-tech-chip">PostgreSQL</li>
+          <li class="dc-tech-chip">Paystack</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Gallery</p>
+        <h2 class="dc-case-block-heading">A few views from the platform</h2>
+        <div class="dc-case-gallery">
+          <div class="dc-case-gallery-item" data-reveal>
+            <div class="dc-browser-mock" style="--mock-accent:#0F766E; --mock-accent-2:#F59E0B;">
+              <div class="dc-browser-mock-bar"><span class="dc-dot dc-dot--red"></span><span class="dc-dot dc-dot--yellow"></span><span class="dc-dot dc-dot--green"></span><span class="dc-browser-mock-url">/dashboard</span></div>
+              <div class="dc-browser-mock-canvas">
+                <img class="projects-home-bg" src="/images/carrercraft-ghana-dashboard.png" alt="Screenshot of CareerCraftGhana dashboard">  
+              </div>
+            </div>
+          </div>
+          <div class="dc-case-gallery-item" data-reveal>
+            <div class="dc-browser-mock" style="--mock-accent:#F59E0B; --mock-accent-2:#0F766E;">
+              <div class="dc-browser-mock-bar"><span class="dc-dot dc-dot--red"></span><span class="dc-dot dc-dot--yellow"></span><span class="dc-dot dc-dot--green"></span><span class="dc-browser-mock-url">/cv-editor</span></div>
+              <div class="dc-browser-mock-canvas">
+                <img src="/images/careercraft-ghana-cveditor.png" alt="Screenshot of CareerCraftGhana CV editor">
+              </div>
+            </div>
+          </div>
+          <div class="dc-case-gallery-item" data-reveal>
+            <div class="dc-browser-mock" style="--mock-accent:#0F766E; --mock-accent-2:#3B82F6;">
+              <div class="dc-browser-mock-bar"><span class="dc-dot dc-dot--red"></span><span class="dc-dot dc-dot--yellow"></span><span class="dc-dot dc-dot--green"></span><span class="dc-browser-mock-url">/pricing</span></div>
+              <div class="dc-browser-mock-canvas">
+                <img src="/images/careercraftghana-pricing.png" alt="CareerCraftGhana pricing plan screenshot">  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESULTS
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Results</p>
+        <h2 class="dc-case-block-heading">A validated design, backed by a secure platform</h2>
+        <div class="dc-case-results-grid">
+          <div class="dc-case-result-card">
+            <span class="dc-case-result-num">18</span>
+            <span class="dc-case-result-label">Pages prototyped</span>
+          </div>
+          <div class="dc-case-result-card">
+            <span class="dc-case-result-num">3</span>
+            <span class="dc-case-result-label">Security issues fixed</span>
+          </div>
+          <div class="dc-case-result-card">
+            <span class="dc-case-result-num">1</span>
+            <span class="dc-case-result-label">Full backend migration</span>
+          </div>
+          <div class="dc-case-result-card">
+            <span class="dc-case-result-num">RLS</span>
+            <span class="dc-case-result-label">Row-level security</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LESSONS LEARNED
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <div class="dc-case-block" data-reveal>
+        <p class="dc-case-block-label">Lessons Learned</p>
+        <h2 class="dc-case-block-heading">Prototypes should be audited, not just admired</h2>
+        <p class="dc-case-block-text">
+          A polished clickable prototype can hide real security gaps once fake data becomes real data. Treating the prototype-to-production migration as a full security review — not just a data-layer swap — caught issues that would have been far costlier to fix after launch.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       NEXT PROJECT / BACK TO PROJECTS
+  ============================================================ -->
+  <section class="dc-section" style="padding-top: 0;">
+    <div class="dc-container">
+      <nav class="dc-case-nav" aria-label="Project navigation">
+        <a href="/projects/godeliver.html" class="dc-case-nav-link">
+          <span class="dc-case-nav-eyebrow">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" style="vertical-align:-1px; margin-right:4px;"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            Previous Project
+          </span>
+          <span class="dc-case-nav-title">← GoDeliver</span>
+        </a>
+        <a href="/projects/truespacegh.html" class="dc-case-nav-link dc-case-nav-link--next">
+          <span class="dc-case-nav-eyebrow">Next Project</span>
+          <span class="dc-case-nav-title">TrueSpaceGh →</span>
+        </a>
+      </nav>
+      <p style="text-align:center; margin-top: 8px;">
+        <a href="/projects.html" class="dc-case-back" style="justify-content:center;">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Back to Projects
+        </a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="dc-footer">
+  <div class="dc-container dc-footer-bottom">
+    <p>&copy; 2026 DevCraft Tech. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
